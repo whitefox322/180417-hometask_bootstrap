@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="styles/app.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<header class="mainHeader">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1">
+                    <span class="glyphicon glyphicon-tasks toggleIcon--modified"></span>
+                </button>
+                <a class="navbar-brand" href="#">Construction companies portal</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li class="active"><a href="#">Link</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<main class="mainContent">
+    <div class="container">
+        <div class="page-header">
+            <h1 class="mainH">Articles management table
+                <button type="button" class="btn btn-success">
+                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                    Create
+                </button>
+            </h1>
+        </div>
+        <div class="filter row">
+            <div class="col-xs-6">
+                <h2 class="filterH">Filter by type
+                    <button class="btn btn-default dropdown-toggle filterButton" data-toggle="dropdown">
+                        Finished
+                        <span class="fa fa-sort filterSpan"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here & here</a></li>
+                    </ul>
+
+                </h2>
+            </div>
+            <div class="col-xs-6">
+                <h2 class="filterH filterH--right">Filter by category
+                    <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                        --All--
+                        <span class="fa fa-sort filterSpan"></span>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-right">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here & here</a></li>
+                    </ul>
+
+                </h2>
+            </div>
+        </div>
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <tr>
+                    <td class="tableH">Logo</td>
+                    <td class="tableH">Title</td>
+                    <td class="tableH">Short description</td>
+                    <td class="tableH">Create date</td>
+                    <td class="tableH">Category</td>
+                    <td class="tableH">Type</td>
+                    <td class="tableH">Options</td>
+                </tr>
+                <tr>
+                    <td><img src="images/img.gif" alt="240x180"></td>
+                    <td>Lorem ipsum.</td>
+                    <td>Lorem ipsum dolor sit amet, consectetur<br>
+                        adipisicingbr elit. Accusamus at cupiditate<br>
+                        debitis dolor ea earum eveniet excepturi<br>
+                        iste iure non, omnis perferendis?
+                    </td>
+                    <td>25/08/2016</td>
+                    <td>News</td>
+                    <td>Finished</td>
+                    <td>
+                        <div class="btn-group" role="group">
+                            <button type="button" class="btn btn-primary">Edit</button>
+                            <button type="button" class="btn btn-danger">Remove</button>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="images/img.gif" alt="240x180"></td>
+                    <td>Lorem ipsum.</td>
+                    <td>Lorem ipsum dolor sit amet, consectetur<br>
+                        adipisicingbr elit. Accusamus at cupiditate<br>
+                        debitis dolor ea earum eveniet excepturi<br>
+                        iste iure non, omnis perferendis?
+                    </td>
+                    <td>25/08/2016</td>
+                    <td>News</td>
+                    <td>Finished</td>
+                    <td>
+                        <div class="btn-group" role="group">
+                            <button type="button" class="btn btn-primary">Edit</button>
+                            <button type="button" class="btn btn-danger">Remove</button>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="images/img.gif" alt="240x180"></td>
+                    <td>Lorem ipsum.</td>
+                    <td>Lorem ipsum dolor sit amet, consectetur<br>
+                        adipisicingbr elit. Accusamus at cupiditate<br>
+                        debitis dolor ea earum eveniet excepturi<br>
+                        iste iure non, omnis perferendis?
+                    </td>
+                    <td>25/08/2016</td>
+                    <td>News</td>
+                    <td>Finished</td>
+                    <td>
+                        <div class="btn-group" role="group">
+                            <button type="button" class="btn btn-primary">Edit</button>
+                            <button type="button" class="btn btn-danger">Remove</button>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="images/img.gif" alt="240x180"></td>
+                    <td>Lorem ipsum.</td>
+                    <td>Lorem ipsum dolor sit amet, consectetur<br>
+                        adipisicingbr elit. Accusamus at cupiditate<br>
+                        debitis dolor ea earum eveniet excepturi<br>
+                        iste iure non, omnis perferendis?
+                    </td>
+                    <td>25/08/2016</td>
+                    <td>News</td>
+                    <td>Finished</td>
+                    <td>
+                        <div class="btn-group" role="group">
+                            <button type="button" class="btn btn-primary">Edit</button>
+                            <button type="button" class="btn btn-danger">Remove</button>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="images/img.gif" alt="240x180"></td>
+                    <td>Lorem ipsum.</td>
+                    <td>Lorem ipsum dolor sit amet, consectetur<br>
+                        adipisicingbr elit. Accusamus at cupiditate<br>
+                        debitis dolor ea earum eveniet excepturi<br>
+                        iste iure non, omnis perferendis?
+                    </td>
+                    <td>25/08/2016</td>
+                    <td>News</td>
+                    <td>Finished</td>
+                    <td>
+                        <div class="btn-group" role="group">
+                            <button type="button" class="btn btn-primary">Edit</button>
+                            <button type="button" class="btn btn-danger">Remove</button>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <nav class="bottomNav">
+            <ul class="pagination">
+                <li>
+                    <a href="#">
+                        <span>&laquo;</span>
+                    </a>
+                </li>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li>
+                    <a href="#">
+                        <span>&raquo;</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</main>
+
+<script src="../node_modules/jquery/dist/jquery.min.js"></script>
+<script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
